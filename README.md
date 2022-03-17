@@ -8,6 +8,11 @@
 2. Gain more knowledge about Github and how to navigate it
 3. Have a record of one of my first times using Github 
 
+The course outline for this course is:
+![](https://courseoutline.auckland.ac.nz/dco/course/STATS/220/1213#:~:text=Course%20Prescription,retrieval%2C%20manipulation%2C%20and%20management)
 
 
-# https://akaashshashikum.github.io/stats220/
+
+
+# Link to my website is:
+## https://akaashshashikum.github.io/stats220/
