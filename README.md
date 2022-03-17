@@ -10,6 +10,10 @@
 
 [CLICK HERE](https://courseoutline.auckland.ac.nz/dco/course/STATS/220/1213#:~:text=Course%20Prescription,retrieval%2C%20manipulation%2C%20and%20management) for the stats220 course outline
 
+## What i love about statistics
+- It is fun
+- Data analysis is interesting
+- I enjoy learning new programming languages
 
 
 
