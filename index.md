@@ -10,6 +10,7 @@ https://www.google.com/url?sa=i&url=https%3A%2F%2Fgiphy.com%2Fexplore%2Fhomer-bu
 
 ## R Code Below!
 
+```r
 library(magick)
 
 picture_1 <- image_read("https://www.thehypeoutlet.com/wp-content/uploads/2022/03/one.gif") %>%
@@ -65,7 +66,7 @@ final
 image_write(final, "mymeme.png")
 
 
-
+```
 
 
 
