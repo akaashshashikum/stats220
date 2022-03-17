@@ -1,6 +1,10 @@
-# stats220
+# **Hello there!**
 
-## header 2
+## *Welcome to my stats220 Repo*
 
-### header 2
+### Purpose of this is 
+## *Showcase my Statistics 220 assignment work
+*Make sure 
+
+
 # https://akaashshashikum.github.io/stats220/
