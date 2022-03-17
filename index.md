@@ -10,20 +10,18 @@ https://www.google.com/url?sa=i&url=https%3A%2F%2Fgiphy.com%2Fexplore%2Fhomer-bu
 
 ## R Code Below!
 
-
-
 library(magick)
 
-sleepy_cat <- image_read("https://www.thehypeoutlet.com/wp-content/uploads/2022/03/one.gif") %>%
+picture_1 <- image_read("https://www.thehypeoutlet.com/wp-content/uploads/2022/03/one.gif") %>%
   image_scale(500)
 
-confused_cat <- image_read("https://www.thehypeoutlet.com/wp-content/uploads/2022/03/5.gif") %>%
+picture_2 <- image_read("https://www.thehypeoutlet.com/wp-content/uploads/2022/03/5.gif") %>%
   image_scale(500)
 
-happy_cat <- image_read("https://www.thehypeoutlet.com/wp-content/uploads/2022/03/12.gif") %>%
+picture_3 <- image_read("https://www.thehypeoutlet.com/wp-content/uploads/2022/03/12.gif") %>%
   image_scale(500)
 
-stats_text <- image_blank(width = 500, 
+picture_1_text <- image_blank(width = 500, 
                           height = 500, 
                           color = "#000000") %>%
   image_annotate(text = "Stage 1 \nComputer Science",
@@ -32,7 +30,7 @@ stats_text <- image_blank(width = 500,
                  font = "Impact",
                  gravity = "center")
 
-comp_text <- image_blank(width = 500, 
+picture_2_text <- image_blank(width = 500, 
                          height = 500, 
                          color = "#000000") %>%
   image_annotate(text = "Stage 2\n Computer Science",
@@ -41,7 +39,7 @@ comp_text <- image_blank(width = 500,
                  font = "Impact",
                  gravity = "center")
 
-ds_text <- image_blank(width = 500, 
+picture_3_text <- image_blank(width = 500, 
                        height = 500, 
                        color = "#000000") %>%
   image_annotate(text = "Stage 3\n Computer science",
@@ -50,13 +48,13 @@ ds_text <- image_blank(width = 500,
                  font = "Impact",
                  gravity = "center")
 
-first_row <- c(sleepy_cat, stats_text) %>%
+first_row <- c(picture_1, picture_1_text) %>%
   image_append()
 
-second_row <- c(confused_cat, comp_text) %>%
+second_row <- c(picture_2, picture_2_text) %>%
   image_append()
 
-third_row <- c(happy_cat, ds_text) %>%
+third_row <- c(picture_3, picture_3_text) %>%
   image_append()
 
 final<-c(first_row, second_row, third_row) %>%
@@ -65,6 +63,14 @@ final<-c(first_row, second_row, third_row) %>%
 final
 
 image_write(final, "mymeme.png")
+
+
+
+
+
+
+
+
 
 
 
